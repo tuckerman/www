@@ -17,6 +17,12 @@ name = 'Resumé'
 url = '/resume'
 weight = 20
 
+[[menu.main]]
+identifier = 'schedule'
+name = 'Schedule'
+url = '/schedule'
+weight = 30
+
 [params]
 env = 'production'
 description = "Cameron Tuckerman-Lee's Personal Site" 
