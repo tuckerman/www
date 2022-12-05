@@ -1,0 +1,50 @@
+baseURL = 'https://ctuck.com/'
+title = 'ctuck.com'
+paginate = 5
+languageCode = 'en-us'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+outputs.home = ['HTML', 'RSS', 'JSON']
+
+[[menu.main]]
+identifier = 'resume'
+name = 'Resumé'
+url = '/resume'
+weight = 20
+
+[params]
+env = 'production'
+description = "Cameron Tuckerman-Lee's Personal Site" 
+disableThemeToggle = true
+defaultTheme = 'light'
+socialIcons = [
+  { name = 'email', url = 'mailto:cameron@ctuck.com' },
+  { name = 'github', url = 'https://github.com/tuckerman' },
+  { name = 'twitter', url = 'https://twitter.com/tuckerman' },
+  { name = 'mastodon', url = 'https://mastodon.ctuck.com/@tuckerman' },
+  { name = 'rss', url = 'index.xml' },
+]
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+
+
+[params.profileMode]
+enabled = true
+title = 'Cameron Tuckerman-Lee'
+subtitle = "Hi there! I'm an SRE and SWE interested in oncall, incident response, and large-scale distributed systems. I'm currently building at General Reliability (previously have worked at Google, theteamatx, and Airbnb). I'm also almost entirely coffee."
+imageUrl = 'profile.jpg'
+buttons = [
+  { name = 'Posts', url = 'posts' },
+  { name = 'Tags',  url = 'tags' },
+]
