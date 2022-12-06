@@ -48,7 +48,7 @@ ShowToc = true
 [params.profileMode]
 enabled = true
 title = 'Cameron Tuckerman-Lee'
-subtitle = "Hi there! I'm an SRE and SWE interested in oncall, incident response, and large-scale distributed systems. I'm currently building at General Reliability (previously have worked at Google, theteamatx, and Airbnb). I'm also almost entirely coffee."
+subtitle = "Hi there! I'm an SRE and SWE interested in oncall, incident response, and large-scale distributed systems. I'm currently building at General Reliability. I have previously have worked at Google, X (the moonshot factory), and Airbnb. I'm also almost entirely coffee."
 imageUrl = 'profile.jpg'
 buttons = [
   { name = 'Posts', url = 'posts' },

@@ -7,22 +7,18 @@ ShowBreadCrumbs: false
 ---
 ## Experience
 
-**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Present)  
-_todo_ 
+**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Present)
 
-**Software Engineer** Google LLC, Mountain View, CA (Mar 2018--Jan 2022)  
-_todo_
+**Software Engineer** Google LLC, Mountain View, CA (Mar 2018--Jan 2022)
 
-**Software Engineer** Airbnb Inc., San Francisco, CA (Feb 2015--Oct 2017)  
-_todo_
+**Software Engineer** Airbnb Inc., San Francisco, CA (Feb 2015--Oct 2017)
 
-**Data Analyst** Google Inc., Mountain View, CA (Jun 2013--Feb 2015)  
-_todo_
+**Data Analyst** Google Inc., Mountain View, CA (Jun 2013--Feb 2015)
 
 ## Eduction
 
 **B.S. Mathematics, _summa cum laude_** Cleveland State University (Graduated May 2013)  
-_todo_
+Thesis: _Classifying Configurations for Toric Codes_
 
 ## Conferences and Talks
 
