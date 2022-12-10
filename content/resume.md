@@ -7,13 +7,20 @@ ShowBreadCrumbs: false
 ---
 ## Experience
 
-**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Present)
+**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Present)  
+- Developing tools for SRE teams to manage production, oncall, and incident response.
 
-**Software Engineer** Google LLC, Mountain View, CA (Mar 2018--Jan 2022)
+**Software Engineer** Google LLC, Mountain View, CA (Mar 2018--Jan 2022)  
+- SWE/SRE at _Everyday Robots_ and _x, the moonshot factory_ working on ML and data analysis infrastructure.
+- SWE/SRE working on Google's internal data warehouse focusing on resource usage, compliance, and efficiency.
 
 **Software Engineer** Airbnb Inc., San Francisco, CA (Feb 2015--Oct 2017)
+- Led site-wide incident response team, developing incident response curriculum and best practices used across the company.
+- TL responsible for for architecting/deploying sharded production infrastructure in China.
+- Responsible for launch reliability and readiness, notably _Airbnb Trips_ and _2016 #weaccept Campaign_.
 
 **Data Analyst** Google Inc., Mountain View, CA (Jun 2013--Feb 2015)
+- Developed infrastructure and trained models used to detect invalid activity and mitigate bad actors on Google’s ad networks, YouTube, and Google+.
 
 ## Eduction
 
