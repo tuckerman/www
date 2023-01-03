@@ -31,8 +31,8 @@ defaultTheme = 'light'
 socialIcons = [
   { name = 'email', url = 'mailto:cameron@ctuck.com' },
   { name = 'github', url = 'https://github.com/tuckerman' },
+  { name = 'mastodon', url = 'https://hachyderm.io/@tuckerman' },
   { name = 'twitter', url = 'https://twitter.com/tuckerman' },
-  { name = 'mastodon', url = 'https://mastodon.ctuck.com/@tuckerman' },
   { name = 'rss', url = 'index.xml' },
 ]
 ShowShareButtons = true
