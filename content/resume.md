@@ -7,7 +7,9 @@ ShowBreadCrumbs: false
 ---
 ## Experience
 
-**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Present)  
+**Software Engineer** Wayve Technologies Ltd., Mountain View, CA (Mar 2023--Present)  
+
+**Founder, CEO** General Reliability Inc., San Francisco, CA (Jan 2022--Mar 2023)  
 - Developing tools for SRE teams to manage production, oncall, and incident response.
 
 **Software Engineer** Google LLC, Mountain View, CA (Mar 2018--Jan 2022)  
