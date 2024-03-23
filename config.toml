@@ -19,13 +19,13 @@ weight = 20
 
 [params]
 env = 'production'
-description = "Cameron Tuckerman-Lee's Personal Site" 
+description = "Cameron Tuckerman-Lee's Personal Site"
 disableThemeToggle = true
 defaultTheme = 'light'
 socialIcons = [
   { name = 'email', url = 'mailto:cameron@ctuck.com' },
   { name = 'github', url = 'https://github.com/tuckerman' },
-  { name = 'mastodon', url = 'https://hachyderm.io/@tuckerman' },
+  { name = 'mastodon', url = 'https://mastodon.social/@tuckerman' },
   { name = 'twitter', url = 'https://twitter.com/tuckerman' },
   { name = 'rss', url = 'index.xml' },
 ]
