@@ -3,6 +3,7 @@ Copyright Cameron Jay Tuckerman-Lee. All rights reserved.
 */
 
 @import url(./fonts/cmun_serif/cmun-serif.css);
+@import url(./fonts/cmun_typewriter/cmun-typewriter.css);
 
 body {
   font-family: "Computer Modern Serif", serif;
@@ -46,6 +47,10 @@ footer {
 .nav li:not(:last-child)::after {
   content: '|';
   margin: 0 10px;
+}
+
+.email {
+  font-family: 'Computer Modern Typewriter';
 }
 
 @media (max-width: 750px) {
