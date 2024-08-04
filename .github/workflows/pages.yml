@@ -28,7 +28,7 @@ jobs:
         with:
           submodules: recursive
       - name: Build
-        run: make build
+        run: make public
       - name: Upload
         uses: actions/upload-pages-artifact@v1
         with:
