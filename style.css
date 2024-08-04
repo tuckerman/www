@@ -13,6 +13,10 @@ body {
   padding: 0 20px; /* Add padding for smaller screens */
 }
 
+footer {
+  color: #AAA;
+}
+
 .date-range {
   float: right;
   color: #666;
@@ -44,7 +48,7 @@ body {
   margin: 0 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   body {
     font-size: 18px; /* Smaller font size for mobile */
     margin: 20px auto; /* Smaller top/bottom margin */
