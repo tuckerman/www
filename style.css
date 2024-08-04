@@ -9,6 +9,8 @@ body {
   max-width: 900px;
   margin: 100px auto;
   overflow-y: scroll;
+  font-size: 16px; /* Base font size */
+  padding: 0 20px; /* Add padding for smaller screens */
 }
 
 .date-range {
@@ -21,6 +23,7 @@ body {
   float: right;
   height: 150px;
   width: 150px;
+  margin: 0 0 10px 10px; /* Space between the image and content */
 }
 
 .nav {
@@ -39,4 +42,43 @@ body {
 .nav li:not(:last-child)::after {
   content: '|';
   margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 18px; /* Smaller font size for mobile */
+    margin: 20px auto; /* Smaller top/bottom margin */
+    max-width: 100%; /* Full width on mobile */
+    overflow-y: scroll;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word; /* Prevents long words from overflowing */
+    word-wrap: break-word; /* For older browsers */
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .date-range {
+    float: none;
+    color: #000;
+  }
+
+  .date-range::before {
+    content: '(';
+  }
+
+  .date-range::after {
+    content: ')';
+  }
+
+  .profile-pic {
+    border-radius: 100%;
+    float: right;
+    height: 75px;
+    width: 75px;
+    margin: 0 0 10px 10px; /* Space between the image and content */
+  }
 }

@@ -1,6 +1,6 @@
 .PHONY: dev
-dev: clean public
-	@python3 -m http.server 8000 -d ./public
+dev:
+	@python3 -m http.server 8000
 
 .PHONY: public
 public:
