@@ -50,6 +50,7 @@ body {
     margin: 20px auto; /* Smaller top/bottom margin */
     max-width: 100%; /* Full width on mobile */
     overflow-y: scroll;
+    padding: 0 10px; /* Adjust padding for mobile */
   }
 
   h1, h2, h3, h4, h5, h6 {
