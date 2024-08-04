@@ -1,0 +1,42 @@
+/*
+Copyright Cameron Jay Tuckerman-Lee. All rights reserved.
+*/
+
+@import url(./fonts/cmun_serif/cmun-serif.css);
+
+body {
+  font-family: "Computer Modern Serif", serif;
+  max-width: 900px;
+  margin: 100px auto;
+  overflow-y: scroll;
+}
+
+.date-range {
+  float: right;
+  color: #666;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  float: right;
+  height: 150px;
+  width: 150px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav li:not(:last-child)::after {
+  content: '|';
+  margin: 0 10px;
+}
