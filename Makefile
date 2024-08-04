@@ -10,6 +10,7 @@ public:
 	@cp style.css public/style.css
 	@cp -R fonts public/fonts
 	@cp -R profile.jpg public/profile.jpg
+	@cp sitemap.txt public/sitemap.txt
 
 .PHONY: clean
 clean:
