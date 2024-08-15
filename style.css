@@ -52,6 +52,7 @@ footer {
 
 .email {
   font-family: 'Computer Modern Typewriter';
+  font-display: swap;
 }
 
 @media (max-width: 750px) {
@@ -61,6 +62,7 @@ footer {
     max-width: 100%; /* Full width on mobile */
     overflow-y: scroll;
     padding: 0 10px; /* Adjust padding for mobile */
+    font-display: swap;
   }
 
   h1, h2, h3, h4, h5, h6 {
