@@ -8,9 +8,10 @@ public:
 	@cp index.html public/index.html
 	@cp resume.html public/resume.html
 	@cp style.css public/style.css
-	@cp -R fonts public/fonts
-	@cp -R profile.jpg public/profile.jpg
+	@cp profile.webp public/profile.webp
 	@cp sitemap.txt public/sitemap.txt
+	@cp favicon.ico public/favicon.ico
+	@cp -R fonts public/fonts
 
 .PHONY: clean
 clean:
