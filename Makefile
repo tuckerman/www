@@ -10,7 +10,7 @@ public:
 	@cp style.css public/style.css
 	@cp profile.webp public/profile.webp
 	@cp sitemap.txt public/sitemap.txt
-	@cp favicon.ico public/favicon.ico
+	@cp favicon.png public/favicon.png
 	@cp -R fonts public/fonts
 
 .PHONY: clean
