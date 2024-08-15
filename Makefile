@@ -1,6 +1,12 @@
+# Copyright Cameron Jay Tuckerman-Lee 2024. All rights reserved.
+
 .PHONY: dev
 dev:
 	@python3 -m http.server 8000
+
+.PHONY: dev-public
+dev-public: public
+	@python3 -m http.server 8000 --directory public
 
 .PHONY: public
 public:

@@ -1,6 +1,4 @@
-/*
-Copyright Cameron Jay Tuckerman-Lee. All rights reserved.
-*/
+/* Copyright Cameron Jay Tuckerman-Lee. All rights reserved. */
 
 @import url(./fonts/cmun_serif/cmun-serif.css);
 @import url(./fonts/cmun_typewriter/cmun-typewriter.css);
@@ -10,8 +8,8 @@ body {
   max-width: 900px;
   margin: 100px auto;
   overflow-y: scroll;
-  font-size: 16px; /* Base font size */
-  padding: 0 20px; /* Add padding for smaller screens */
+  font-size: 16px;
+  padding: 0 20px;
   font-display: swap;
 }
 
@@ -29,7 +27,7 @@ footer {
   float: right;
   height: 150px;
   width: 150px;
-  margin: 0 0 10px 10px; /* Space between the image and content */
+  margin: 0 0 10px 10px;
 }
 
 .nav {
@@ -57,17 +55,17 @@ footer {
 
 @media (max-width: 750px) {
   body {
-    font-size: 18px; /* Smaller font size for mobile */
-    margin: 20px auto; /* Smaller top/bottom margin */
-    max-width: 100%; /* Full width on mobile */
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 100%;
     overflow-y: scroll;
-    padding: 0 10px; /* Adjust padding for mobile */
+    padding: 0 10px;
     font-display: swap;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word; /* Prevents long words from overflowing */
-    word-wrap: break-word; /* For older browsers */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
 
   h1 {
@@ -92,6 +90,6 @@ footer {
     float: right;
     height: 75px;
     width: 75px;
-    margin: 0 0 10px 10px; /* Space between the image and content */
+    margin: 0 0 10px 10px;
   }
 }
