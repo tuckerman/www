@@ -18,6 +18,7 @@ public:
 	@cp sitemap.txt public/sitemap.txt
 	@cp favicon.png public/favicon.png
 	@cp -R fonts public/fonts
+	@cp -R artifacts public/artifacts
 
 .PHONY: clean
 clean:
