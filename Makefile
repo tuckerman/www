@@ -21,6 +21,7 @@ public:
 	@cp -R fonts public/fonts
 	@cp -R resume public/resume
 	@cp -R talks public/talks
+	@cp -R schedule public/schedule
 
 .PHONY: clean
 clean:
