@@ -1,47 +1,118 @@
 @media print {
-  /* Hide navigation links, print button, and footer */
-  .nav, .print-button, footer {
-    display: none;
+  /* Hide screen-only elements */
+  .nav, .print-button, .social-links {
+    display: none !important;
   }
 
-  /* Adjust body font size and margins for printing */
+  /* Show header but hide footer */
+  #footer {
+    display: none !important;
+  }
+
+  /* Reset page margins and setup proper print layout */
+  @page {
+    margin: 0.75in;
+    size: letter;
+  }
+
+  /* Body styling optimized for print */
   body {
     margin: 0;
-    padding: 20px;
-    font-size: 9pt; /* Smaller font size for print */
+    padding: 0;
+    font-size: 10pt;
+    line-height: 1.3;
+    color: #000;
+    background: white;
+    max-width: none;
+    font-family: "Times New Roman", serif;
   }
 
-  /* Header styling for print */
+  /* Main heading */
   h1 {
-    font-size: 18pt; /* Adjusted size for printing */
-    margin-bottom: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0 0 12pt 0;
+    text-align: left;
   }
 
+  /* Add contact info after name */
+  h1:after {
+    content: "\A cameron@ctuck.com • github.com/tuckerman • linkedin.com/in/tuckerman";
+    font-size: 10pt;
+    font-weight: normal;
+    display: block;
+    margin-top: -2pt;
+    white-space: pre;
+  }
+
+  /* Section headings */
   h2 {
-    font-size: 12pt; /* Adjusted size for printing */
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 12pt 0 6pt 0;
+    page-break-after: avoid;
   }
 
-  /* Align bullet points under headers */
+  /* Prevent orphaned headings */
+  h2 + p, h2 + ul {
+    page-break-before: avoid;
+  }
+
+  /* Job/role entries */
+  p {
+    margin: 6pt 0 3pt 0;
+    page-break-inside: avoid;
+  }
+
+  /* Strong text (job titles, companies) */
+  strong {
+    font-weight: bold;
+  }
+
+  /* Date ranges - keep on same line as title */
+  .date-range {
+    float: right;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  /* Lists */
   ul {
-    list-style-position: inside;
-    margin-left: 0;
-    padding-left: 20px; /* Adjust as needed to align properly */
+    margin: 3pt 0 6pt 0;
+    padding-left: 18pt;
+    page-break-inside: avoid;
   }
 
   li {
-    margin-left: 0; /* Ensure list items align correctly */
+    margin: 1pt 0;
+    line-height: 1.2;
   }
 
-  /* Date range styling */
-  .date-range {
-    float: right;
+  /* Links - show URL for important links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
   }
 
-  /* Adjust margins and spacing for readability */
-  p, ul {
-    margin: 0;
-    padding: 5px 0;
+  /* Don't show URLs for relative links */
+  a[href^="/"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Ensure good page breaks */
+  .page-break {
+    page-break-before: always;
+  }
+
+  /* Avoid breaking inside job entries */
+  p + ul {
+    page-break-before: avoid;
+  }
+
+  /* Compact spacing for print */
+  br {
+    line-height: 1.2;
   }
 }

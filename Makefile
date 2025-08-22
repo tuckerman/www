@@ -14,14 +14,18 @@ public:
 
 	@cp index.html public/index.html
 	@cp sitemap.txt public/sitemap.txt
+	@cp sitemap.xml public/sitemap.xml
 	@cp style.css public/style.css
+	@cp print.css public/print.css
 	@cp profile.webp public/profile.webp
 	@cp favicon.png public/favicon.png
+	@cp includes.js public/includes.js
 
 	@cp -R fonts public/fonts
 	@cp -R resume public/resume
 	@cp -R talks public/talks
 	@cp -R schedule public/schedule
+	@cp -R shared public/shared
 
 .PHONY: clean
 clean:

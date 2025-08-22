@@ -25,13 +25,29 @@ footer {
 }
 
 .social-links a {
-  color: #555;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: opacity 0.2s ease;
+  opacity: 0.7;
 }
 
 .social-links a:hover {
-  color: #000;
+  opacity: 1;
+}
+
+.social-twitter {
+  color: #1DA1F2;
+}
+
+.social-bluesky {
+  color: #00A8E8;
+}
+
+.social-github {
+  color: #333;
+}
+
+.social-linkedin {
+  color: #0077B5;
 }
 
 .date-range {
