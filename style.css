@@ -4,9 +4,9 @@
 @font-face {
   font-family: 'Computer Modern Fallback';
   src: local('Times New Roman'), local('Times'), local('serif');
-  ascent-override: 89%;
-  descent-override: 21%;
-  line-gap-override: 0%;
+  ascent-override: 96%;
+  descent-override: 25%;
+  line-gap-override: 4%;
   size-adjust: 108%;
 }
 
@@ -27,6 +27,7 @@ body {
   font-size: 16px;
   padding: 0 20px;
   font-display: swap;
+  letter-spacing: 0.005em;
 }
 
 footer {
