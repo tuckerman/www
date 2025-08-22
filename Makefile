@@ -13,8 +13,8 @@ public:
 	@mkdir -p public
 
 	@cp index.html public/index.html
-	@cp sitemap.txt public/sitemap.txt
 	@cp sitemap.xml public/sitemap.xml
+	@cp robots.txt public/robots.txt
 	@cp style.css public/style.css
 	@cp print.css public/print.css
 	@cp profile.webp public/profile.webp
@@ -26,6 +26,7 @@ public:
 	@cp -R talks public/talks
 	@cp -R schedule public/schedule
 	@cp -R shared public/shared
+	@cp -R .well-known public/.well-known
 
 .PHONY: clean
 clean:
