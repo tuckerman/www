@@ -1,7 +1,26 @@
 /* Copyright Cameron Jay Tuckerman-Lee. All rights reserved. */
 
+/* Fallback font with Computer Modern metrics to prevent layout shifts */
+@font-face {
+  font-family: 'Computer Modern Fallback';
+  src: local('Times New Roman'), local('Times'), local('serif');
+  ascent-override: 89%;
+  descent-override: 21%;
+  line-gap-override: 0%;
+  size-adjust: 108%;
+}
+
+@font-face {
+  font-family: 'Computer Modern Typewriter Fallback';
+  src: local('Courier New'), local('Courier'), local('monospace');
+  ascent-override: 85%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+  size-adjust: 95%;
+}
+
 body {
-  font-family: "Computer Modern Serif", serif;
+  font-family: "Computer Modern Serif", "Computer Modern Fallback", serif;
   max-width: 900px;
   margin: 100px auto;
   overflow-y: scroll;
@@ -79,7 +98,7 @@ footer {
 }
 
 .email {
-  font-family: 'Computer Modern Typewriter';
+  font-family: 'Computer Modern Typewriter', 'Computer Modern Typewriter Fallback', monospace;
   font-display: swap;
 }
 
