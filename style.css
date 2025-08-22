@@ -34,11 +34,17 @@ footer {
   color: #555;
 }
 
-.social-links {
-  margin-top: 10px;
+.footer-content {
   display: flex;
-  gap: 12px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
 }
 
 .social-links a {
@@ -49,6 +55,11 @@ footer {
 
 .social-links a:hover {
   opacity: 1;
+}
+
+.social-links svg {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .social-twitter {
