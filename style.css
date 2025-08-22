@@ -1,8 +1,5 @@
 /* Copyright Cameron Jay Tuckerman-Lee. All rights reserved. */
 
-@import url(./fonts/cmun_serif/cmun-serif.css);
-@import url(./fonts/cmun_typewriter/cmun-typewriter.css);
-
 body {
   font-family: "Computer Modern Serif", serif;
   max-width: 900px;
