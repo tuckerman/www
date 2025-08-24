@@ -114,6 +114,14 @@ footer {
   font-display: swap;
 }
 
+.gpg-key {
+  text-decoration: none;
+}
+
+.gpg-key:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 750px) {
   body {
     font-size: 18px;
